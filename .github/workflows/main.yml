@@ -17,5 +17,5 @@ jobs:
           node-version: 10
 
       # Install your dependencies
-      - run: npx install-peerdeps --dev eslint-config-airbnb-base@14.2.1
-      - run: npx eslint .
+      - run: npm install-peerdeps --dev eslint-config-airbnb-base@14.2.1
+      - run: npm eslint .
